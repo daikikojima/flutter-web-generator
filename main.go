@@ -55,7 +55,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "flutter web generator"
 	app.Usage = "github.com/daikikojima/flutter-web-generator"
-	app.Version = "1.0"
+	app.Version = "0.1"
 
 	app.Commands = []cli.Command{
 		{
